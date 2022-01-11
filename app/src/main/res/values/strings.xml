@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">SmartCity</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">主页</string>
+    <string name="title_service">全部服务</string>
+    <string name="title_test">智慧党建</string>
+    <string name="title_data">数据分析</string>
+    <string name="title_user">个人中心</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 </resources>

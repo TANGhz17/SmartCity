@@ -10,16 +10,25 @@
         android:name="com.example.smartcity.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
-
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.smartcity.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
+        android:id="@+id/navigation_service"
+        android:name="com.example.smartcity.ui.service.ServiceFragment"
+        android:label="@string/title_service"
+        tools:layout="@layout/service_fragment" />
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.smartcity.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_test"
+        android:name="com.example.smartcity.ui.test.TestFragment"
+        android:label="@string/title_test"
+        tools:layout="@layout/test_fragment" />
+    <fragment
+        android:id="@+id/navigation_data"
+        android:name="com.example.smartcity.ui.data.DataFragment"
+        android:label="@string/title_data"
+        tools:layout="@layout/data_fragment" />
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.smartcity.ui.user.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/user_fragment" />
+
 </navigation>
